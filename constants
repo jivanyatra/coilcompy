@@ -1,0 +1,41 @@
+# Materials/form-factors
+'''
+Kanthal A1 / APM
+Kanthal A / AE / AF
+Kanthal D
+Nichrome N80 (A)
+Nichrome N70 (B)
+Nichrome N60 (C)
+Nichrome N40
+Nichrome N20
+Custom resistivity
+
+---
+
+Round
+Round, multiple strands
+Ribbon
+
+Pitch is dist between ridges in twisted wire. 0 = parallel
+Twist pitch
+
+Number of strands
+'''
+
+# Wire diameter
+'''
+AWG / mm
+Ribbon width
+Ribbon thickness
+'''
+
+# Coil setup
+'''
+rfactor = 1        single coil
+rfactor = 0.5      dual coil (parallel)
+rfactor = 0.33333  triple coil (parallel)
+rfactor = 0.25     quad coil (parallel)
+rfactor = 2        dual coil (serial)
+rfactor = 3        triple coil (serial)
+rfactor = 4        quad coil (serial)
+rfactor = 1        quad coil (serial-parallel)
