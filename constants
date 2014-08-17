@@ -1,3 +1,13 @@
+# material_r
+kanthala1 = 1.45
+kanthalaf = 1.39
+kanthald = 1.35
+nichrome80 = 1.09
+nichrome70 = 1.18
+nichrome60 = 1.11
+nichrome40 = 1.04
+
+
 # Materials/form-factors
 '''
 Kanthal A1 / APM
@@ -39,3 +49,4 @@ rfactor = 2        dual coil (serial)
 rfactor = 3        triple coil (serial)
 rfactor = 4        quad coil (serial)
 rfactor = 1        quad coil (serial-parallel)
+'''
